@@ -1,0 +1,8 @@
+@media (max-width: 767.98px){
+	.navbar-brand{display:none}
+	.navbar-brand-sm{display:block}
+}
+@media (min-width: 767.99px){
+	.navbar-brand{display:block}
+	.navbar-brand-sm{display:none}
+}
