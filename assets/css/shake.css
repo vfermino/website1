@@ -1,0 +1,27 @@
+.shake {
+	color:#f00;
+}
+.shake::after {
+content: attr(data-shaking-text);
+position: absolute;
+left: 1px;
+top: 0;
+-webkit-animation: vibrateAnim 0.1s linear infinite;
+animation: vibrateAnim 0.1s linear infinite;
+}
+
+@-webkit-keyframes vibrateAnim {
+0% {left: 3px;}
+25% {left: 0;}
+50% {left: 3px;}
+75% {left: 0;}
+100% {left: 4px;}
+}
+
+@keyframes vibrateAnim {
+0% {left: 3px;}
+25% {left: 0;}
+50% {left: 3px;}
+75% {left: 0;}
+100% {left: 4px;}
+}

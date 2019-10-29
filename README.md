@@ -1,68 +1,60 @@
-# [Start Bootstrap - Landing Page](https://startbootstrap.com/template-overviews/landing-page/)
+#deck.js
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+A JavaScript library for building modern HTML presentations. deck.js is flexible enough to let advanced CSS and JavaScript authors craft highly customized decks, but also provides templates and themes for the HTML novice to build a standard slideshow.
 
-## Preview
+## Quick Start
 
-[![Landing Page Preview](https://startbootstrap.com/assets/img/screenshots/themes/landing-page.png)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
+This repository includes a `boilerplate.html` as a starting point, with all the extensions included. Just [download it](https://github.com/imakewebthings/deck.js/archive/latest.zip), open `boilerplate.html`, and start editing your slides.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-landing-page/)**
+## Documentation
 
-## Status
+Check out the [documentation page](http://imakewebthings.github.com/deck.js/docs) for more information on the methods, events, and options available in core and all the included extensions.  A sample standard slide deck is included in the package under the `introduction` folder.  You can also [view that sample deck](http://imakewebthings.github.com/deck.js/introduction) online to play with the available style and transition themes.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-landing-page/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-landing-page.svg)](https://www.npmjs.com/package/startbootstrap-landing-page)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page?type=dev)
+## Extensions, Themes, and Related Projects
 
-## Download and Installation
+Take a look at [the wiki](https://github.com/imakewebthings/deck.js/wiki) for lists of extensions, themes, and other related goodies.  If you have a publicly available project of your own, feel free to add to the list.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/landing-page/)
-* Install via npm: `npm i startbootstrap-landing-page`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-landing-page.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-landing-page)
+## Dependencies (included in this repository)
 
-## Usage
+- [jQuery](http://jquery.com)
+- [Modernizr](http://modernizr.com)
 
-### Basic Usage
+## Tests & Support
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+Unit tests are written with [Jasmine](http://pivotal.github.com/jasmine/) and [jasmine-jquery](https://github.com/velesin/jasmine-jquery). You can [run them here](http://imakewebthings.github.com/deck.js/test).
 
-### Advanced Usage
+deck.js has been tested with jQuery 1.6+ and works in IE7+, Chrome, FF, Safari, and Opera. The more capable browsers receive greater enhancements, but a basic cutaway slideshow will work for all browsers listed above. Please don't give your presentations in IE6.
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+For any questions or general discussion about deck.js please direct your attention to the [mailing list](http://groups.google.com/group/deckjs) (uses Google groups.)  If you would like to report a bug, please see the [issues page](https://github.com/imakewebthings/deck.js/issues).
 
-#### Gulp Tasks
+## Printing
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+Core includes stripped down black and white print styles for the standard slide template that is suitable for handouts.
 
-You must have npm installed globally in order to use this build environment.
+## Awesome Contributors
 
-## Bugs and Issues
+- [jbuck](https://github.com/jbuck)
+- [cykod](https://github.com/cykod)
+- [dougireton](https://github.com/dougireton)
+- [awirick](https://github.com/awirick)
+- Daniel Knittl-Frank
+- [alexch](https://github.com/alexch)
+- [twitwi](https://github.com/twitwi)
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
+If you would like to contribute a patch to deck.js please do as much as you can of the following:
 
-## About
+- Add or amend Jasmine tests.
+- Add inline documentation.
+- If the standard snippet of an extension changes, please change it in both the introduction deck and the snippet html in the extension folder.
+- If the API changes, it would be awesome to receive a parallel pull request to the gh-pages branch which updates the public-facing documentation.
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+## License
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+Copyright (c) 2011-2014 Caleb Troughton
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Licensed under the [MIT license](https://github.com/imakewebthings/deck.js/blob/master/MIT-license.txt)
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Donations
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
+[![Gittip donate
+button](http://img.shields.io/gittip/imakewebthings.png)](https://www.gittip.com/imakewebthings/ "Donate weekly to this project using Gittip")
